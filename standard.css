@@ -1,0 +1,79 @@
+/* Comments goes here */
+
+<style>
+body {
+   background-image:"images/playful-kitten-6683.jpg";
+   padding-left: 15px;
+}
+.c {
+   color:orange;
+   font-weight:bolder;
+}
+
+h1 {
+   font-family:"Montserrat";
+   font-size: 340%;
+   color:black;
+   padding-left: 25px;
+   drop-shadow: 5px 10px;
+}
+
+h3 {
+   font-family:"Montserrat";
+   color:black;
+   font-size: 240%;
+   padding-left:  25px;
+}
+.navbar {
+   overflow:hidden;
+   background-color:"orange";
+   position: fixed;
+   bottom: 5px;
+   width:100%;
+}
+
+.navbar a {
+  font-family:"Montserrat";
+  float:right;
+  display:inline;
+  color:orange;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    bottom:0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display:inline;
+    text-align: left;
+  }
+
+</style>
